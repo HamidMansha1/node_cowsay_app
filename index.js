@@ -1,4 +1,5 @@
 var cowsay = require("cowsay");
+require('dotenv').config();
 
 console.log(cowsay.say({
     text : "I'm a moooodule",
@@ -7,3 +8,6 @@ console.log(cowsay.say({
 }));
 
 // or cowsay.think()
+
+
+console.log(`friend_name : ${process.env.friend_name}`)
