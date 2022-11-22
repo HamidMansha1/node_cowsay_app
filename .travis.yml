@@ -14,5 +14,4 @@ script: npm start
 env:
   global:
   - friend_name=asim
-  jobs:
   - friend_name=akbar
