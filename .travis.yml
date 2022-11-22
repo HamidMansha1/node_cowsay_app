@@ -4,5 +4,7 @@ dist: focal
 # install: npm install
 script: npm start
 env:
-  - friend_name= "Hamid"
-  - friend_name= "Ali"
+  global:
+    - FOO=1
+    - BAR=2
+    - BAZ=3
