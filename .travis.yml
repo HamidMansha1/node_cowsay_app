@@ -14,4 +14,4 @@ script: npm start
 env:
   global:
   - friend_name=asim
-  - friend_name=akbar
+  - friend=akbar
