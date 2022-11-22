@@ -3,9 +3,9 @@ node_js: lts/*
 dist: focal
 # install: npm install
 script: npm start
-      - node -e "console.log('Hi from NodeJS!')"
-# env:
-#   global:
-#     - FOO=1
+      # - node -e "console.log('Hi from NodeJS!')"
+env:
+  global:
+    - friend_name=test
 #     - BAR=2
 #     - BAZ=3

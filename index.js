@@ -2,7 +2,7 @@ var cowsay = require("cowsay");
 require('dotenv').config();
 
 console.log(cowsay.say({
-    text : "I'm a Hey Kashif",
+    text : `Hey ${process.env.friend_name}`,
     e : "y",
     T : "Kashif "
 }));
