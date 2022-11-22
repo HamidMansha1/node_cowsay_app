@@ -12,6 +12,5 @@ script: npm start
 #     - BAZ=3
 
 env:
-  global:
   - friend_name=asim
-  - friend=akbar
+  - friend_name=akbar
